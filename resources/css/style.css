@@ -1,0 +1,66 @@
+header {
+  display: flex;
+  font-family: Verdana, sans-sarif;
+  font-size: 14px;
+  font-weight: bold;
+}
+.logo {
+  background-image: url("resources/media/img-myt-logo.jpg");
+  width: 70px;
+  height: 60px;
+}
+
+.mytimes {
+  display: flex;
+  color: MediumAquamarine;
+  align-items: center;
+  padding-left: 5px;
+  min-width: 100px;
+}
+
+.nav {
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+
+.nav li {
+  display: inline-flex;
+  padding-right: 20px;
+}
+
+.nav .science {
+  padding-right: 40px;
+}
+
+.nav a {
+  color: black;
+}
+
+content {
+  display: flex;
+}
+
+.column {
+  display: block;
+  /* likely this code is going to have to change */
+}
+
+.large {
+  width: 630px;
+  margin-right: 10px;
+}
+
+.medium {
+  width: 300px;
+  margin-right: 10px;
+}
+
+.small {
+  width: 240px;
+}
+
+.story {
+  border: 1px solid black;
+}
