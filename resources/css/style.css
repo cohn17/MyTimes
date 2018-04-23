@@ -5,10 +5,6 @@ header {
   font-weight: bold;
 }
 
-h3 {
-  text-transform: capitalize;
-}
-
 .logo {
   background-image: url("resources/media/img-myt-logo.jpg");
   width: 70px;
@@ -69,4 +65,56 @@ h3 {
 
 .story {
   border: 1px solid black;
+  font-family: Georgia, sans-sarif;
+  font-size: 17px;
+  color: black;
+}
+
+.images {
+  color: white;
+  font-family: Georgia, san-sarif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.phish {
+  display: flex;
+  background-image: url("../media/main-story.png");
+  width: 629px;
+  height: 300px;
+  font-size: 40px;
+}
+
+.cats {
+  display: flex;
+  background-image: url("../media/cat-ceo.png");
+  width: 299px;
+  height: 300px;
+  text-align: center;
+  align-items: center;
+}
+
+.earth {
+  display: flex;
+  background-image: url("../media/fall-image.png");
+  width: 299px;
+  height: 300px;
+  text-align: center;
+  align-items: center;
+}
+
+.camera {
+  display: flex;
+  background-image: url("../media/camera-dude.png");
+  width: 299px;
+  height: 300px;
+  text-align: center;
+  align-items: center;
+}
+
+.cookie {
+  display: flex;
+  background-image: url("../media/cookie.png");
+  width: 240px;
+  height: 240px;
 }
