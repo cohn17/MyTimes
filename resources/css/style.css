@@ -4,6 +4,11 @@ header {
   font-size: 14px;
   font-weight: bold;
 }
+
+h3 {
+  text-transform: capitalize;
+}
+
 .logo {
   background-image: url("resources/media/img-myt-logo.jpg");
   width: 70px;
@@ -38,13 +43,14 @@ header {
   color: black;
 }
 
-content {
+.content {
   display: flex;
+  flex-direction: row;
 }
 
 .column {
-  display: block;
-  /* likely this code is going to have to change */
+  display: flex;
+  flex-direction: column;
 }
 
 .large {
