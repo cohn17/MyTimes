@@ -3,6 +3,7 @@ header {
   font-family: Verdana, sans-sarif;
   font-size: 14px;
   font-weight: bold;
+  border-bottom: 1px solid black;
 }
 
 .logo {
@@ -42,21 +43,32 @@ header {
 .content {
   display: flex;
   flex-direction: row;
+  margin-top: 30px;
 }
 
 .column {
   display: flex;
   flex-direction: column;
+  flex-wrap:wrap;
+  margin-right: 30px;
 }
 
 .large {
   width: 630px;
-  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.sublarge {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .medium {
   width: 300px;
-  margin-right: 10px;
 }
 
 .small {
@@ -64,10 +76,21 @@ header {
 }
 
 .story {
-  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
   font-family: Georgia, sans-sarif;
   font-size: 17px;
   color: black;
+}
+
+.bites {
+  border-bottom: 1px solid black;
+  padding: 10px 20px;
+  margin: 0;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
 }
 
 .images {
@@ -75,12 +98,12 @@ header {
   font-family: Georgia, san-sarif;
   font-weight: bold;
   font-size: 30px;
+  background-repeat: no-repeat;
 }
 
 .phish {
-  display: flex;
   background-image: url("../media/main-story.png");
-  width: 629px;
+  min-width: 629px;
   height: 300px;
   font-size: 40px;
 }
@@ -88,7 +111,6 @@ header {
 .cats {
   display: flex;
   background-image: url("../media/cat-ceo.png");
-  width: 299px;
   height: 300px;
   text-align: center;
   align-items: center;
@@ -97,7 +119,6 @@ header {
 .earth {
   display: flex;
   background-image: url("../media/fall-image.png");
-  width: 299px;
   height: 300px;
   text-align: center;
   align-items: center;
@@ -106,7 +127,6 @@ header {
 .camera {
   display: flex;
   background-image: url("../media/camera-dude.png");
-  width: 299px;
   height: 300px;
   text-align: center;
   align-items: center;
@@ -115,6 +135,6 @@ header {
 .cookie {
   display: flex;
   background-image: url("../media/cookie.png");
-  width: 240px;
-  height: 240px;
+  width: 220px;
+  height: 220px;
 }
