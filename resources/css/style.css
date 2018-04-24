@@ -6,6 +6,11 @@ header {
   border-bottom: 1px solid black;
 }
 
+h2 {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
 .logo {
   background-image: url("resources/media/img-myt-logo.jpg");
   width: 70px;
@@ -56,8 +61,9 @@ header {
 .large {
   width: 630px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .sublarge {
@@ -65,6 +71,7 @@ header {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  margin-right: 0;
 }
 
 .medium {
