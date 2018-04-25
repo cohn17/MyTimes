@@ -41,6 +41,7 @@ navbar {
 
 content {
   display: flex;
+  margin-top: 40px;
 }
 
 h2 {
