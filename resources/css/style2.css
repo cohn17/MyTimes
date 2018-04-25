@@ -1,3 +1,8 @@
+body {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
 navbar {
   display: flex;
   align-items: center;
@@ -38,11 +43,9 @@ content {
   display: flex;
 }
 
-story {
-  display: flex;
-  flex-flow: column wrap;
-  font-family: Georgia;
-  font-size: 17px;
+h2 {
+  font-family: Georgia, sans-serif;
+  font-size: 30px;
   color: black;
 }
 
@@ -54,31 +57,44 @@ story {
 .column.large {
   display: flex;
   flex-flow: row wrap;
+  flex: 0 0 auto;
   width: 630px;
 }
 
 .sub-main {
   display: flex;
+  justify-content: space-between;
   width: 630px;
 }
 
 .column.large.sub {
   display: flex;
   flex-flow: column wrap;
-  justify-content: space-between;
+  flex: 0 0 auto;
   width: 300px;
+  margin-right: 0
 }
 
 .column.medium {
   display: flex;
   flex-flow: column wrap;
+  flex: 0 0 auto;
   width: 300px;
 }
 
 .column.small {
   display: flex;
   flex-flow: column wrap;
+  flex: 0 0 auto;
   width: 240px;
+}
+
+story {
+  display: flex;
+  flex-flow: column wrap;
+  font-family: Georgia, sans-serif;
+  font-size: 17px;
+  color: black;
 }
 
 .main-story {
@@ -91,4 +107,107 @@ story {
   font-weight: bold;
   font-size: 40px;
   color: white;
+}
+
+.earth {
+  display: flex;
+  align-items: center;
+  text-align:center;
+  background-image: url("../media/fall-image.png");
+  width: 299px;
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.camera {
+  display: flex;
+  align-items: center;
+  text-align:center;
+  background-image: url("../media/camera-dude.png");
+  width: 299px;
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.cats {
+  display: flex;
+  align-items: center;
+  text-align:center;
+  background-image: url("../media/cat-ceo.png");
+  width: 299px;
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.cookie {
+  display: flex;
+  align-items: center;
+  text-align:center;
+  width: 240px;
+  height: 240px;
+}
+.bites {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.bite-items {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: stretch;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  padding: 10px 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: DimGray;
+  border-bottom: 1px solid black;
+}
+
+footer {
+  bottom: 0;
+  margin-top: 40px;
+  height: 325px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: MediumAquamarine;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+footer a {
+  color: black;
+  margin-left: 20px;
+}
+
+footer .top {
+  display: flex;
+}
+
+footer .name {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  display: inline-block;
+  padding-right: 10px;
+  border-right: 2px solid white;
+}
+
+footer .footnav {
+  margin-left: 20px;
+  display:inline-block;
 }
